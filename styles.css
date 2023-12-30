@@ -1,0 +1,39 @@
+.my-name {
+    color: rgb(255, 255, 255);
+	font-size: 45px;
+}
+
+.my-subheading {
+	color: #F4D3A2;
+	font-size: xx-large;
+}
+
+.front-image {
+	border-radius: 10px;
+}
+
+.about {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.my-nav-edits {
+	padding: 20px;
+}
+
+
+/* 
+special styles for smaller screens:
+    when the screen is smaller than 768px, the above
+	styles will be overwritten by the following styles
+*/
+@media screen and (max-width: 768px) {
+	.about {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.my-nav-edits {
+		padding: 0;
+	}
+}
