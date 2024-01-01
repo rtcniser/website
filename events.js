@@ -13,8 +13,8 @@ function displayPastEvents() {
 	// Create a string to hold the HTML content
 	var updatesHTML = "";
 
-	// Iterate through the new_updates array
-	past_events.forEach(function (update) {
+	// Iterate through the array
+	past_events.forEach(function (update) {  // this array is defined in data/events.js
 		console.log(update);
 		// Use template literals to generate HTML
 		updatesHTML += `
@@ -52,8 +52,8 @@ function displayUpcomingEvents() {
 	// Create a string to hold the HTML content
 	var updatesHTML = "";
 
-	// Iterate through the new_updates array
-	upcoming_events.forEach(function (update) {
+	// Iterate through the array
+	upcoming_events.forEach(function (update) {  // this array is defined in data/events.js
 		console.log(update);
 		// Use template literals to generate HTML
 		updatesHTML += `

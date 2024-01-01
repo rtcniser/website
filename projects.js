@@ -13,8 +13,8 @@ function displayPastProjects() {
 	// Create a string to hold the HTML content
 	var updatesHTML = "";
 
-	// Iterate through the new_updates array
-	past_projects.forEach(function (update) {
+	// Iterate through the array
+	past_projects.forEach(function (update) {  // this array is defined in data/projects.js
 		console.log(update);
 		// Use template literals to generate HTML
 		updatesHTML += `
@@ -52,8 +52,8 @@ function displayUpcomingProjects() {
 	// Create a string to hold the HTML content
 	var updatesHTML = "";
 
-	// Iterate through the new_updates array
-	upcoming_projects.forEach(function (update) {
+	// Iterate through the array
+	upcoming_projects.forEach(function (update) {  // this array is defined in data/projects.js
 		console.log(update);
 		// Use template literals to generate HTML
 		updatesHTML += `

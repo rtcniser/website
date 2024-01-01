@@ -38,7 +38,7 @@ function displayUpdates() {
 	var updatesHTML = "";
 
 	// Iterate through the new_updates array
-	new_updates.forEach(function (update) {
+	new_updates.forEach(function (update) {  // new_updates array is defined in data/news.js
 		console.log(update);
 		// Use template literals to generate HTML
 		updatesHTML += `
