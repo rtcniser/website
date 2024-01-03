@@ -12,13 +12,64 @@
 	border-radius: 10px;
 }
 
-.about {
+.vision {
 	width: 50%;
 	margin: 0 auto;
 }
 
 .my-nav-edits {
 	padding: 20px;
+}
+
+.updates {
+	/* margin: 0 auto; */
+	width: 20%;
+}
+
+.social-icons {
+	width:  100px;
+	height: 100px;
+	fill: red;
+}
+
+
+
+#footer .footer {
+	text-align: center;
+	min-height: 200px;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+
+#footer .social{
+	font-size: 400%;
+	text-align: center;
+	color: white;
+	margin: 20px;
+}
+
+#footer .youtube:hover{
+	color: red;
+}
+
+#footer .github:hover{
+	color: #8256D0;
+}
+
+#footer .facebook:hover{
+	color: #3a559f;
+}
+
+#footer .insta:hover{
+	background-image: linear-gradient(45deg, #ffee00 0%, #ff00ea 100%);
+	background-clip: border-box;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+#footer .mail:hover{
+	color: rgb(141, 0, 0);
 }
 
 
@@ -28,12 +79,24 @@ special styles for smaller screens:
 	styles will be overwritten by the following styles
 */
 @media screen and (max-width: 768px) {
-	.about {
+	.vision {
 		width: 100%;
 		margin-left: 0;
 	}
 
 	.my-nav-edits {
 		padding: 0;
+	}
+	
+	.updates {
+		/* margin: 0 auto; */
+		width: 100%;
+	}
+
+	#footer .social {
+		font-size: 200%;
+		text-align: center;
+		color: white;
+		margin: 7px;
 	}
 }
